@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+	<h1><DIV ALIGN= center>Practica 3</DIV></h1>
+	
+	<form action="Archivo.php" method = "GET">
+		<Fieldset>
+			Nombre: <input type="text" name="nombre" id="nombre" 				size=20><br/><br/>
+			
+			Apellido Paterno: <input type="text" name="apaterno" 				id="apaterno" size=20><br/><br/>
+
+			Apellido Materno: <input type="text" name="amaterno" 				id="amaterno" size=20><br/><br/>
+
+			Foto<br/><input type="file" name="foto" id="foto" size=20>
+			<br/><br/>
+
+			Fecha de nacimiento<br/>
+			<select name="dia">
+			<option value="1" selected >1</option>
+			<option value="2">2</option>
+			<option value="3">3</option>
+			<option value="4">4</option>
+			<option value="5">5</option>
+			<option value="6">6</option>
+			<option value="7">7</option>
+			<option value="8">8</option>
+			<option value="9">9</option>
+			<option value="10">10</option>
+			<option value="11">11</option>
+			<option value="12">12</option>
+			<option value="13">13</option>
+			<option value="14">14</option>
+			<option value="15">15</option>
+			<option value="16">16</option>
+			<option value="17">17</option>
+			<option value="18">18</option>
+			<option value="19">19</option>
+			<option value="20">20</option>
+			<option value="21">21</option>
+			<option value="22">22</option>
+			<option value="23">23</option>
+			<option value="24">24</option>
+			<option value="25">25</option>
+			<option value="26">26</option>
+			<option value="27">27</option>
+			<option value="28">28</option>
+			<option value="29">29</option>
+			<option value="30">30</option>
+			<option value="31">31</option>	
+			</select>
+
+			<select name="mes">
+			<option value="enero" selected >Enero</option>
+			<option value="febrero">Febrero</option>
+			<option value="marzo">Marzo</option>
+			<option value="abril">Abril</option>
+			<option value="mayo">Mayo</option>
+			<option value="junio">Junio</option>
+			<option value="julio">Julio</option>
+			<option value="agosto">Agosto</option>
+			<option value="septiembre">Septiembre</option>
+			<option value="octubre">Octubre</option>
+			<option value="noviembre">Noviembre</option>
+			<option value="diciembre">Diciembre</option>
+			</select>
+
+			<select>
+			<option value="2014" selected>2014</option>
+			<option value="2015" selected>2015</option>
+			<option value="2016" selected>2016</option>
+			<option value="2017" selected>2017</option>
+			<option value="2018" selected>2018</option>
+			<option value="2019" selected>2019</option>
+			<option value="2020" selected>2020</option>
+			<option value="2021" selected>2021</option>
+			<option value="2022" selected>2022</option>
+			<option value="2023" selected>2023</option>
+			</select><br/><br/>
+
+			Sexo<br/>
+			<input type="radio" name="sexo">Masculino</input><br/>
+			<input type="radio" name="sexo">Femenino</input>
+		
+		</Fieldset><br/>
+
+		<Fieldset>
+			C&oacute;digo:
+			<input type="text" name="codigo" id="codigo" size=20><br/>
+			<br/>Password:			
+			<input type="password" name="pass" id="pass" size=20><br/>
+		</Fieldset><br/>
+
+		<Fieldset>
+			Domicilio:
+			<input type="text" name="dom" id="dom" size=20><br/><br/>
+			Correo electr&oacute;nico:
+			<input type="text" name="email" id="email" size=20><br/	>
+			<br/>Tel&eacute;fono:
+			<input type="text" name="tel" id="tel" size=20><br/>
+		</Fieldset><br/>
+
+		<Fieldset>
+			<legend>Personal</legend>
+			Inter&eacute;s en:<br/>
+			<input type="checkbox" name="interes">Deportes</input><br/>
+			<input type="checkbox" name="interes">Cultura</input><br/>
+			<input type="checkbox" name="interes">Ciencia</input><br/>
+			<input type="checkbox" name="interes">Educacion</input><br/>
+
+			<br/>Observaciones<br/>
+			<textarea name="observaciones" id="observaciones" rows="10" 				cols="40"></textarea>
+		</Fieldset><br/>
+
+		<input type="button" name="boton" id="boton" value="Cancelar" 			onclick="alert('Cancelado');">
+		<input type="button" name="boton1" id="boton1" value="Enviar" 			onclick="alert('Enviado');">
+	</form>
+</html>
